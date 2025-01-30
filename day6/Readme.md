@@ -54,6 +54,28 @@ Today, I focused on preparing my marketplace for the live environment by setting
 
 ### 3. Test Case Reporting
 - Documented all test cases and results.
+- 
+| Test Case ID | Test Case Description                | Test Steps                                            | Expected Result                                          | Actual Result                                          | Status | Severity Level | Assigned To | Remarks                 |
+|--------------|--------------------------------------|-------------------------------------------------------|---------------------------------------------------------|-------------------------------------------------------|--------|-----------------|-------------|-------------------------|
+| TC001        | Validate car listing page           | Open car listing page > Verify cars                   | Cars displayed correctly with details (name, price, image) | Cars displayed correctly                               | Passed | High            | -           | No issues found         |
+| TC002        | Test API error handling             | Disconnect API > Refresh page                         | Show fallback UI with error message                     | Error message shown                                    | Passed | Medium          | -           | Handled gracefully      |
+| TC003        | Ensure responsiveness on mobile     | Resize browser window > Check layout                  | Layout adjusts properly to screen size                   | Responsive layout working as intended                 | Passed | Medium          | -           | Test successful         |
+| TC004        | Test dynamic routing for car details | Click on car > Verify car details page                | Car details page loads correctly with accurate information (name, price, features) | Car details page loaded correctly                      | Passed | High            | -           | No issues found         |
+| TC005        | Validate search and filter          | Use search bar and filters (e.g., by brand, seats) > Verify results | Filters and search return accurate car results          | Filters and search worked as expected                  | Passed | Medium          | -           | Test successful         |
+| TC006        | Test API response                   | Use Postman to test GET /api/cars endpoint            | API returns valid response with correct car data         | API returned expected data                            | Passed | High            | -           | No issues found         |
+| TC007        | Check fallback UI for empty data    | Simulate empty car list > Verify fallback message     | Fallback message (e.g.,"No cars available") displayed    | Fallback message displayed correctly                   | Passed | Medium          | -           | Handled gracefully      |
+| TC008        | Test performance optimization       | Run Lighthouse analysis > Verify load time and performance metrics | Initial load time under 2 seconds                        | Load time improved to under 2 seconds                  | Passed | Medium          | -           | Performance optimized  |
+| TC009        | Cross-browser compatibility         | Test website on Chrome, Firefox, and Edge             | Consistent rendering and functionality across all browsers | Website rendered consistently across browsers          | Passed | Medium          | -           | No issues found         |
+| TC010        | Test responsive design on devices   | Use BrowserStack and physical device to test responsiveness | Website adjusts seamlessly across all device sizes and orientations | Responsive design worked as intended                  | Passed | High            | -           | Test successful         |
+| TC011        | Validate input sanitization         | Attempt SQL injection or XSS attack > Verify input validation | Inputs sanitized to prevent attacks                     | Inputs sanitized successfully                         | Passed | Critical        | -           | Security measures working|
+| TC012        | Test secure API communication       | Verify API calls are made over HTTPS                   | API calls are secure and use HTTPS                       | API calls made over HTTPS                             | Passed | High            | -           | No issues found         |
+| TC013        | Simulate real-world usage           | Browse cars, rent a car, and checkout                 | All functionalities work as expected                     | All functionalities worked as expected                 | Passed | High            | -           | Test successful         |
+| TC014        | Collect user feedback               | Gather feedback from friends and family               | Feedback collected for improvements                      | Feedback collected and documented                      | Passed | Low             | -           | Suggestions noted       |
+| TC015        | Fix URL path issue                  | Update URL structure for dynamic routing              | Dynamic routing works correctly                          | Dynamic routing fixed and working                     | Passed | Medium          | -           | Issue resolved          |
+| TC016        | Resolve image source error          | Configure external image domain in next.config.ts      | External images load correctly                           | External images loaded successfully                    | Passed | Medium          | -           | Issue resolved          |
+
+---
+
 
 ---
 
