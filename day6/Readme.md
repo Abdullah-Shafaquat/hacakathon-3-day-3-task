@@ -90,11 +90,11 @@ Today, I focused on preparing my marketplace for the live environment by setting
 ---
 
 ## Checklist for Day 6
-- [x] Deployment Preparation
-- [x] Staging Environment Testing
-- [x] Documentation Updates
-- [x] Form Submission
-- [x] Final Review
+- <span style="color:green;">[x]</span> Deployment Preparation
+- <span style="color:green;">[x]</span> Staging Environment Testing
+- <span style="color:green;">[x]</span> Documentation Updates
+- <span style="color:green;">[x]</span> Form Submission
+- <span style="color:green;">[x]</span> Final Review
 
 ---
 
